@@ -1,0 +1,31 @@
+body{
+margin:0;
+padding: 0;
+border:0;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+ /*navbar*/
+.bg-green{
+  background-color: green;
+  padding: 15px;
+}
+
+.head{
+    background-image: url(../img/esteban1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      text-align: center;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 20px;
+}
+
+.head hr {
+    max-width: 198px;
+    background-color: white;
