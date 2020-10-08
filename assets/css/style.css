@@ -58,7 +58,7 @@ font-family: 'Open Sans', sans-serif;
 hr{
   width: 200px;
   border:1px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   margin-top: 20px;
 }
 
@@ -100,7 +100,17 @@ hr{
 
 h2 {
     font-size: 40px;
+    margin-top: 20px;
     font-weight: 700;
     text-align: center;
 font-family: 'Oswald', sans-serif;
+}
+
+
+.working{
+  background-color: green;
+}
+.cui-embed{
+  border:1px solid grey;
+  margin: 20px auto;
 }
