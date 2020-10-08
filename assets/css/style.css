@@ -4,6 +4,8 @@ padding: 0;
 border:0;
 font-family: 'Open Sans', sans-serif;
 
+
+
 }
 
  /*navbar*/
@@ -24,6 +26,7 @@ font-family: 'Open Sans', sans-serif;
       justify-content: center;
       align-items: flex-end;
       padding: 20px;
+      margin-bottom: 20px;
 }
 
 .subtitle h1{
@@ -55,5 +58,49 @@ font-family: 'Open Sans', sans-serif;
 hr{
   width: 200px;
   border:1px solid black;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.carousel-indicators {
+  top: 100px;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: green;
+
+}
+
+@media (min-width: 320px) {
+  .carousel-indicators {
+    margin-top: 300px;
+  }
+}
+
+@media (min-width: 576px) {
+  .carousel-indicators {
+    margin-top: 300px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .carousel-indicators {
+    margin-top: 100px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+font-family: 'Oswald', sans-serif;
 }
